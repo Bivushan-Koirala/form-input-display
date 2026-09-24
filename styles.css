@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    color: hsl(223, 100%, 64%);
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    font-size: 1em;
+    margin: 10px;
+}
+
+button {
+    background-color: hsl(0, 100%, 60%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 100%, 40%);
+}
+
+#myGreeting {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
