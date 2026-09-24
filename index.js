@@ -1,3 +1,8 @@
-//spread operatior
-let number = [1,2,3,4,5];
-console.log(number);
+
+let username;
+let mySubmit = document.getElementById(`mySubmit`);
+mySubmit.onclick = function(){
+  username = document.getElementById(`myTxt`).value;
+  console.log(username);
+  document.getElementById(`myGreeting`).textContent = `Hello ${username}`;
+}
